@@ -1,0 +1,17 @@
+students = {}
+
+def add_student():
+    name = input("Enter student name: ").strip()
+    score = int(input("Enter student score: "))
+    students[name] = score
+    print("Student added successfully.")
+
+def view_all():
+    print("\n---- All Students ----")
+…            print("Exiting the application. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please enter a number between 1 and 5.")
+
+if __name__ == "__main__":
+    main()
